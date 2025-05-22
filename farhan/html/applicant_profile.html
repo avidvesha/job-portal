@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Profile</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-yH7D6zqKqaQ+xL0O1RRGc0gMT+xuYcA3npl5I2f0OVuEiM6k5fRVmL5sSWhZY6AAXkV+Gi+9BeRf+E9TYDW1AA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="../css/styles_applicant.css" />
+    <!-- Icon -->
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#">
+            <img id="logo-navbar" src="../assets/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Companies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+              </ul>
+              <a href="#" class="nav-link">
+                <button class="btn btn-outline-primary" type="submit">
+                  For Employers
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <title>Glints Profile - Farhan Nafissalam</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <div class="container my-5">
+      <div class="row">
+        <!-- Main Profile -->
+        <div class="col-lg-8 p-4 bg-white rounded shadow-sm mb-4">
+          <div class="d-flex align-items-center mb-4">
+            <div class="profile-img me-4">🦙</div>
+            <div>
+              <h4 class="mb-0 fw-bold">
+                FARHAN NAFISSALAM
+                <small class="text-muted" style="font-size: 0.8em"
+                  >23.61.0250</small
+                >
+              </h4>
+              <a
+                href="#"
+                class="text-decoration-none text-small"
+                style="color: #cf0f47"
+                >Edit personal data</a
+              >
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">PHONE</div>
+            <div class="col-sm-8">-</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">EMAIL</div>
+            <div class="col-sm-8">23.61.0250@students.amikom.ac.id ✅</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">LOCATION</div>
+            <div class="col-sm-8">Indonesia</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">AGE</div>
+            <div class="col-sm-8">-</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">GENDER</div>
+            <div class="col-sm-8">-</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">HIGHEST EDUCATION</div>
+            <div class="col-sm-8">-</div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-4 fw-bold text-danger">WORK EXPERIENCE</div>
+            <div class="col-sm-8">-</div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <label for="status" class="form-label fw-bold"
+            >EMPLOYMENT STATUS</label
+          >
+          <select class="form-select mb-3" id="status">
+            <option selected>Select Status</option>
+            <option>Student</option>
+            <option>Fresh Graduate</option>
+            <option>Employed</option>
+          </select>
+
+          <div class="d-grid gap-2 mb-3">
+            <button class="btn btn-outline-danger">
+              <i class="bi bi-file-earmark-arrow-down"></i> Export to PDF
+            </button>
+            <button class="btn btn-outline-danger">
+              <i class="bi bi-eye"></i> View My Profile
+            </button>
+          </div>
+
+          <div class="card p-3 shadow-sm">
+            <!-- Sidebar Menu -->
+            <div
+              class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+            >
+              <i class="bi bi-person text-danger"></i>
+              <span class="flex-grow-1 ms-2">Personal Data</span>
+              <i class="bi bi-chevron-right text-danger"></i>
+            </div>
+            <div
+              class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+            >
+              <i class="bi bi-file-text text-danger"></i>
+              <span class="flex-grow-1 ms-2">Resume</span>
+              <i class="bi bi-chevron-right text-danger"></i>
+            </div>
+            <div
+              class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+            >
+              <i class="bi bi-briefcase text-danger"></i>
+              <span class="flex-grow-1 ms-2">Work Experience</span>
+              <i class="bi bi-chevron-right text-danger"></i>
+            </div>
+            <div
+              class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+            >
+              <i class="bi bi-mortarboard text-danger"></i>
+              <span class="flex-grow-1 ms-2">Education</span>
+              <i class="bi bi-chevron-right text-danger"></i>
+            </div>
+            <div
+              class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+            >
+              <i class="bi bi-stars text-danger"></i>
+              <span class="flex-grow-1 ms-2">Skills</span>
+              <i class="bi bi-chevron-right text-danger"></i>
+            </div>
+
+            <div class="collapse" id="moreList">
+              <div
+                class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+              >
+                <i class="bi bi-heart text-danger"></i>
+                <span class="flex-grow-1 ms-2">Interests & Preferences</span>
+                <i class="bi bi-chevron-right text-danger"></i>
+              </div>
+              <div
+                class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+              >
+                <i class="bi bi-chat-left-text text-danger"></i>
+                <span class="flex-grow-1 ms-2">About Me</span>
+                <i class="bi bi-chevron-right text-danger"></i>
+              </div>
+              <div
+                class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+              >
+                <i class="bi bi-images text-danger"></i>
+                <span class="flex-grow-1 ms-2">Portfolio</span>
+                <i class="bi bi-chevron-right text-danger"></i>
+              </div>
+              <div
+                class="sidebar-item d-flex justify-content-between align-items-center py-2 border-bottom"
+              >
+                <i class="bi bi-trophy text-danger"></i>
+                <span class="flex-grow-1 ms-2">Awards</span>
+                <i class="bi bi-chevron-right text-danger"></i>
+              </div>
+              <div
+                class="sidebar-item d-flex justify-content-between align-items-center py-2"
+              >
+                <i class="bi bi-people text-danger"></i>
+                <span class="flex-grow-1 ms-2">Organisations</span>
+                <i class="bi bi-chevron-right text-danger"></i>
+              </div>
+            </div>
+
+            <div class="text-centre pt-2">
+              <a
+                class="text-muted text-decoration-none toggle-link"
+                data-bs-toggle="collapse"
+                href="#moreList"
+                role="button"
+                aria-expanded="false"
+                aria-controls="moreList"
+                id="toggleCollapse"
+              >
+                <i class="bi bi-chevron-down"></i>
+                <span id="collapseText">See more</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profile Sections -->
+      <div class="mt-4">
+        <div class="section">
+          <h6 class="section-title">ABOUT ME</h6>
+          <p class="text-muted">
+            Tell companies what makes you stand out for hiring
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add About Me Description</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">WORK EXPERIENCE</h6>
+          <p class="text-muted">
+            77.9% of companies consider work experience important in
+            applications.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Work Experience</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">EDUCATION</h6>
+          <p class="text-muted">
+            Your background is reviewed by companies. Tell your education
+            history to improve interview chances.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Education</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">SKILLS</h6>
+          <p class="text-muted">
+            Show what you're good at to attract top employers.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Skills</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">JOB INTERESTS & PREFERENCES</h6>
+          <div class="alert alert-info small" role="alert">
+            <i class="bi bi-info-circle"></i> We've updated the list of Job
+            Types. Recheck and update your Preferences for better
+            recommendations.
+          </div>
+          <p class="text-muted">
+            Tell us what you're looking for and we'll share job openings you'll
+            love.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Interests & Preferences</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">RESUME</h6>
+          <p class="text-muted">
+            77.4% of companies consider resumes very important in job
+            applications.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Resume</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">AWARDS</h6>
+          <p class="text-muted">
+            Highlight your achievements by adding a list of awards.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Awards</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">CERTIFICATES</h6>
+          <p class="text-muted">
+            Show your achievements by adding certificates here.
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Certificates</a
+          >
+        </div>
+
+        <div class="section">
+          <h6 class="section-title">
+            ORGANISATIONAL & VOLUNTEERING EXPERIENCE
+          </h6>
+          <p class="text-muted">
+            Do you have any extracurricular activities you'd like to show to
+            employers?
+          </p>
+          <a href="#" class="add-link"
+            ><i class="bi bi-plus-circle"></i> Add Experience</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white pt-5 pb-4" style="color: #ffdede">
+      <div class="container">
+        <div class="row">
+          <!-- Logo Section -->
+          <div class="col-md-12 mb-4">
+            <img
+              src="../assets/logo.png"
+              alt="Kerja In Logo"
+              style="max-width: 200px; height: auto"
+            />
+            <p class="mt-3">
+              Officially launched in 2025 in Yogyakarta, Kerja In has empowered
+              more than 5 million talents and 60,000 organizations to realize
+              their human potential.
+            </p>
+            <hr class="my-4" style="border-color: #ff0b55" />
+          </div>
+
+          <!-- Columns -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-danger mb-4" style="color: #cf0f47">
+              For Job Seekers
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Register</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Create Resume</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Find Jobs</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Job Tips</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Help Center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5 class="text-danger mb-4" style="color: #cf0f47">
+              For Companies
+            </h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Company Register</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Recruitment</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Product & Service</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >HR Tips</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Price</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <h5 class="text-danger mb-4" style="color: #cf0f47">Our Company</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Our Team</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >Blog</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="text-decoration-none" style="color: #ffdede"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p class="mb-0">© 2025 KerjaIN</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const moreList = document.getElementById("moreList");
+      const collapseText = document.getElementById("collapseText");
+      const toggleCollapse = document.getElementById("toggleCollapse");
+
+      moreList.addEventListener("hide.bs.collapse", () => {
+        collapseText.innerText = "See more";
+        toggleCollapse.querySelector("i").className = "bi bi-chevron-down";
+      });
+
+      moreList.addEventListener("show.bs.collapse", () => {
+        collapseText.innerText = "See less";
+        toggleCollapse.querySelector("i").className = "bi bi-chevron-up";
+      });
+    </script>
+  </body>
+</html>

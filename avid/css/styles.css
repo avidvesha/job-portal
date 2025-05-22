@@ -1,0 +1,18 @@
+body {
+  /* background-color: #ffdede; */
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar {
+  background-color: #ffdede;
+}
+
+.btn .btn-primary {
+  box-shadow: 0 0.5rem 1rem rgba(black, 0.15);
+}
+
+#profile-pic,
+#logo-navbar {
+  width: 40px;
+}

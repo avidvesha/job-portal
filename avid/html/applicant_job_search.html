@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search Job</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Icon -->
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
+  </head>
+  <body class="">
+    <!-- Navbar -->
+    <header>
+      
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#">
+            <img id="logo-navbar" src="../assets/logo.png" alt="" />
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Companies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                  </li>
+              </ul>
+                <a href="#" class="nav-link">
+                  <button class="btn btn-outline-primary" type="submit">
+                    For Company
+                  </button>
+                </a>
+            </div>
+          </div>
+      </nav>
+
+    </header>
+    
+    <!-- Search -->
+    <section id="searching">
+      <div class="container" style="height: 80px;"></div>
+
+      <div class="mt-4 px-5">
+        <div class="px-3">
+
+          <form class="">
+            <div class="d-flex flex-row justify-content-between my-auto">
+              <div class="col-5">
+                <div class="input-group shadow bg-body rounded">
+                  <div class="input-group-text bg-transparent ">
+                      <span class="material-icons">search</i>
+                    </div>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search by Job, Skill, or Company" aria-describedby="emailHelp">
+                </div>
+              </div>
+              <div class="col-5">
+                <div class="input-group shadow bg-body rounded">
+                  <div class="input-group-text bg-transparent ">
+                      <span class="material-icons">location_on</i>
+                    </div>
+                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Search by Location" aria-describedby="emailHelp">
+                </div>
+              </div>
+              
+              <div class="">
+                <button type="submit" class="btn btn-primary shadow">Search</button>
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+        <div class="mt-4 px-4">Find Your Desired Job</div>
+      </div>
+
+    </section>
+
+    <!-- Cards -->
+    <section id="job-cards">
+      <div class="mt-4 px-5">
+        <div class="px-3">
+
+          <!-- Col-1 -->
+          <!-- <div class="card-group">
+
+            <div class="col-sm-4">
+                <div class="card mx-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card  mx-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card  mx-1">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          
+          </div> -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 shadow">
+                <div class="card-body">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row justify-content-between mb-2">
+                      <i class="material-icons my-auto mx-4">corporate_fare</i>
+                      <div class="col">
+                        <h6 class="ms-1">Company Name</h6>
+                        <h5 class="ms-1">Job Name</h5>
+                        <div class="d-flex flex-row">
+                          <i class="material-icons">location_on</i>
+                          <p class="card-subtitle text-muted my-auto">Location</p>
+                        </div>
+                      </div>
+                    </div>
+                    <i class="material-icons">bookmark</i>
+                  </div>
+                  <div class="">
+
+                    <div class="col">
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Satu</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Dua</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Tiga</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Empat</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Lima</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Enam</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <div class="card-body">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row justify-content-between mb-2">
+                      <i class="material-icons my-auto mx-4">corporate_fare</i>
+                      <div class="col">
+                        <h6 class="ms-1">Company Name</h6>
+                        <h5 class="ms-1">Job Name</h5>
+                        <div class="d-flex flex-row">
+                          <i class="material-icons">location_on</i>
+                          <p class="card-subtitle text-muted my-auto">Location</p>
+                        </div>
+                      </div>
+                    </div>
+                    <i class="material-icons">bookmark</i>
+                  </div>
+                  <div class="">
+
+                    <div class="col">
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Satu</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Dua</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Tiga</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Empat</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Lima</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Enam</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <div class="card-body">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row justify-content-between mb-2">
+                      <i class="material-icons my-auto mx-4">corporate_fare</i>
+                      <div class="col">
+                        <h6 class="ms-1">Company Name</h6>
+                        <h5 class="ms-1">Job Name</h5>
+                        <div class="d-flex flex-row">
+                          <i class="material-icons">location_on</i>
+                          <p class="card-subtitle text-muted my-auto">Location</p>
+                        </div>
+                      </div>
+                    </div>
+                    <i class="material-icons">bookmark</i>
+                  </div>
+                  <div class="">
+
+                    <div class="col">
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Satu</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Dua</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Tiga</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Empat</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Lima</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Enam</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <div class="card-body">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row justify-content-between mb-2">
+                      <i class="material-icons my-auto mx-4">corporate_fare</i>
+                      <div class="col">
+                        <h6 class="ms-1">Company Name</h6>
+                        <h5 class="ms-1">Job Name</h5>
+                        <div class="d-flex flex-row">
+                          <i class="material-icons">location_on</i>
+                          <p class="card-subtitle text-muted my-auto">Location</p>
+                        </div>
+                      </div>
+                    </div>
+                    <i class="material-icons">bookmark</i>
+                  </div>
+                  <div class="">
+
+                    <div class="col">
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Satu</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Dua</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Tiga</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Empat</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Lima</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Enam</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow">
+                <div class="card-body">
+                  <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row justify-content-between mb-2">
+                      <i class="material-icons my-auto mx-4">corporate_fare</i>
+                      <div class="col">
+                        <h6 class="ms-1">Company Name</h6>
+                        <h5 class="ms-1">Job Name</h5>
+                        <div class="d-flex flex-row">
+                          <i class="material-icons">location_on</i>
+                          <p class="card-subtitle text-muted my-auto">Location</p>
+                        </div>
+                      </div>
+                    </div>
+                    <i class="material-icons">bookmark</i>
+                  </div>
+                  <div class="">
+
+                    <div class="col">
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Satu</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Dua</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Tiga</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Empat</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Lima</button>
+                      <button type="button" class="btn btn-secondary btn-sm shadow mb-1" disabled>Requirement Enam</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+    </section>
+        
+    <!-- Pagination -->
+    <section id="pagination">
+      <div class="d-flex center">
+
+        <div class="mx-auto my-5">
+          
+          
+            <ul class="pagination justify-content-center shadow">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&lt;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&gt;</span>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-white pt-5 pb-4" style="color: #FFDEDE;">
+    <div class="container">
+      <div class="row">
+        <!-- Logo Section -->
+        <div class="col-md-12 mb-4">
+          <img src="../assets/logo.png" alt="Kerja In Logo" style="max-width: 200px; height: auto;">
+          <p class="mt-3">Officially launched in 2025 in Yogyakarta, Kerja In has empowered more than 5 million talents and 60,000 organizations to realize their human potential.</p>
+          <hr class="my-4" style="border-color: #FF0B55;">
+        </div>
+
+        <!-- Columns -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-danger mb-4" style="color: #CF0F47;">For Job Seekers</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Create Resume</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Find Jobs</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Job Tips</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Help Center</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5 class="text-danger mb-4" style="color: #CF0F47;">For Companies</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Company Register</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Recruitment</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Product & Service</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">HR Tips</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Price</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <h5 class="text-danger mb-4" style="color: #CF0F47;">Our Company</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none" style="color: #FFDEDE;">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="row mt-3">
+        <div class="col-md-12 text-center">
+          <p class="mb-0">© 2025 KerjaIN</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Main Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
